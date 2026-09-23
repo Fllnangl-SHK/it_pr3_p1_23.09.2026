@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #0a0a1a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    border-bottom: 2px solid #00f0ff;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #00f0ff;
+    text-shadow: 0 0 20px #00f0ff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #9d00ff;
+    font-weight: 400;
+}
+
+.main {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    background-color: #15152a;
+    padding: 20px;
+    border: 2px solid #00f0ff;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.3);
+}
+
+.card-legend {
+    background-color: #2a0a0a;
+    border-color: #ff0040;
+    box-shadow: 0 0 20px rgba(255, 0, 64, 0.4);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    color: #00f0ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-legend h3 {
+    color: #ff0040;
+}
+
+.card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #b0b0c0;
+}
+
+.card a {
+    display: inline-block;
+    color: #9d00ff;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px dashed #9d00ff;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.card a:hover {
+    color: #00f0ff;
+    border-bottom-color: #00f0ff;
+    letter-spacing: 1px;
+}
+
+.info {
+    border-top: 1px solid #333;
+    padding-top: 15px;
+}
+
+.info ul {
+    list-style: none;
+}
+
+.info li {
+    padding: 6px 0;
+    font-size: 13px;
+    color: #d0d0e0;
+    border-bottom: 1px dotted #333;
+}
+
+.info li:last-child {
+    border-bottom: none;
+}
+
+.highlight {
+    position: relative;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #1a1a3a;
+    border: 1px solid #9d00ff;
+    border-radius: 8px;
+    text-align: center;
+    color: #9d00ff;
+    font-weight: bold;
+}
+
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 24px;
+    height: 24px;
+    background-color: #9d00ff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px #9d00ff;
+}
